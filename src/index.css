@@ -3,7 +3,7 @@
   font-weight: 400;
 
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: black;
 }
 
 body {
@@ -85,7 +85,7 @@ body {
 }
 
 .title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -115,5 +115,27 @@ button {
 .navbar span {
   padding: 6px 7px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14.4px;
+}
+
+.action-buttons{
+  margin: 30px;
+  display: flex;
+  gap:6px;
+}
+
+.action-buttons img{
+  width: 20px;
+  height: 20px;
+}
+
+.action-buttons button{
+  gap: 8px;
+  padding: 10px;
+  justify-content: center;
+  background-color: #1F252B;
+  font-size: 17.6px;
+  border-radius: 8px;
+  border: 2px solid #272E32;
+  flex: 1;
 }
