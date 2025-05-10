@@ -1,4 +1,3 @@
-import "../index.css"
 import adnan from "../assets/adnan.png"
 import backbutton from "../assets/button.png"
 import demo from "../assets/demo.png"
