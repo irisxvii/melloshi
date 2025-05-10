@@ -277,12 +277,14 @@ button {
   padding: 12px;
   margin: 0 60px;
   border-radius: 8px;
+  flex-wrap: wrap;
 }
 
 .guest-info{
   display: flex;
   gap: 10px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .guest-info .name{
@@ -297,6 +299,7 @@ button {
 .guest-icons{
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .guest-icons .time{
@@ -313,6 +316,20 @@ button {
 .guest-icons .icons{
   display: flex;
   gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .guest-card {
+    flex-direction: column;
+    margin: 0 50px;
+  }
+
+  .guest-info,
+  .guest-icons {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+  }
 }
 
 .footer{
