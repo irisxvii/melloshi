@@ -4,6 +4,7 @@ import EventStats from './components/EventStats'
 import GuestList from './components/GuestList'
 import FilterBar from './components/FilterBar'
 import GuestTable from './components/GuestTable'
+import Footer from './components/Footer'
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <GuestList />
             <FilterBar />
             <GuestTable />
+            <Footer />
         </>
     )
 }
