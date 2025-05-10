@@ -64,7 +64,7 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
-  opacity: 60%;
+  opacity: 70%;
 }
 
 .middle {
@@ -119,7 +119,7 @@ button {
 }
 
 .action-buttons{
-  margin: 30px;
+  margin: 20px 60px;
   display: flex;
   gap:6px;
 }
@@ -138,4 +138,72 @@ button {
   border-radius: 8px;
   border: 2px solid #272E32;
   flex: 1;
+}
+
+.stats-overview {
+  margin: 0px 60px;
+}
+
+.stats-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.stats-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #00FF82;
+}
+
+.right-top{
+  font-size: 14.4px;
+}
+
+.vio{
+  color: #9B4FD3;
+}
+
+.gre{
+  color: #2EAF6D;
+}
+
+.blu{
+  color: #7C9BF2;
+}
+
+.stat{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 14.4px;
+}
+
+.status-bar{
+  display: flex;
+  height: 10px;
+  margin: 10px 0 15px;
+}
+
+.status-bar .violet{
+  background-color: #9B4FD3;
+  width: 83.1%;
+}
+
+.status-bar .green{
+  background-color: #2EAF6D;
+  width: .9%;
+}
+
+.status-bar .white{
+  background-color: #E6E8EC;
+  width: 1.2%;
+}
+
+.status-bar .blue{
+  background-color: #7C9BF2;
+  width: 14.8%;
 }
