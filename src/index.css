@@ -2,8 +2,8 @@
   font-family: "Inter",system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: black;
+  color: #FFFFFF;
+  background-color: #131517;
 }
 
 body {
@@ -15,7 +15,6 @@ body {
 
 .header {
   padding: 50px;
-  background-color: black;
   width: 100vw;
   box-sizing: border-box;
 }
@@ -110,7 +109,7 @@ button {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  opacity: 70%;
+  opacity: 40%;
 }
 
 .navbar span {
@@ -134,10 +133,10 @@ button {
   gap: 8px;
   padding: 10px;
   justify-content: center;
-  background-color: #1F252B;
+  background-color: #1C1E20;
   font-size: 17.6px;
   border-radius: 8px;
-  border: 2px solid #272E32;
+  border: 2px solid #202224;
   flex: 1;
 }
 
@@ -221,11 +220,11 @@ button {
 }
 
 .guest-search{
-  background-color: #1F252B;
+  background-color: #1C1E20;
   color: white;
   outline: none;
   border-radius: 8px;
-  border: 2px solid #272E32;
+  border: 2px solid #202224;
   padding: 8px 30px;
   font-size: 14.4px;
   width: 100%;
@@ -263,9 +262,9 @@ button {
 
 .filter-dropdown{
   border-radius: 4px;
-  background-color: #1F252B;
+  background-color: #1C1E20;
   color: #9E9E9E;
-  border: 2px solid #272E32;
+  border: 2px solid #202224;
   padding: 8px 8px;
   font-size: 14.4px;
 }
@@ -273,8 +272,8 @@ button {
 .guest-card{
   display: flex;
   justify-content: space-between;
-  background-color: #1F252B;
-  border: 2px solid #272E32;
+  background-color: #1C1E20;
+  border: 1px solid #202224;
   padding: 12px;
   margin: 0 60px;
   border-radius: 8px;
