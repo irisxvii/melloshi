@@ -207,3 +207,38 @@ button {
   background-color: #7C9BF2;
   width: 14.8%;
 }
+
+.guest-list{
+  margin: 0 60px;
+}
+
+.guest-list-title{
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 17.6px;
+  font-weight: 600;  
+}
+
+.guest-search{
+  background-color: #1F252B;
+  color: white;
+  outline: none;
+  border-radius: 8px;
+  border: 2px solid #272E32;
+  padding: 8px 30px;
+  font-size: 14.4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon{
+  position: absolute;
+  width: 14.14px;
+  height: 14.39px;
+  padding-left: 12px;
+}
