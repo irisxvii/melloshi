@@ -2,6 +2,7 @@ import ActionButtons from './components/ActionButtons'
 import Header from './components/Header'
 import EventStats from './components/EventStats'
 import GuestList from './components/GuestList'
+import FilterBar from './components/FilterBar'
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <EventStats />
             <ActionButtons />
             <GuestList />
+            <FilterBar />
         </>
     )
 }

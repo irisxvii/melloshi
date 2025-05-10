@@ -242,3 +242,29 @@ button {
   height: 14.39px;
   padding-left: 12px;
 }
+
+.filter{
+  margin: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-title{
+  font-size: 17.6px;
+  font-weight: 600;
+}
+
+.filter-bar{
+  display: flex;
+  gap: 10px;
+}
+
+.filter-dropdown{
+  border-radius: 4px;
+  background-color: #1F252B;
+  color: #9E9E9E;
+  border: 2px solid #272E32;
+  padding: 8px 8px;
+  font-size: 14.4px;
+}

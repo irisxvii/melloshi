@@ -22,7 +22,7 @@ function Header () {
             <div className="mid-row">
                 <div className="middle">
                     <img src={backbutton} alt="back buton" className="back-button"/>
-                    <img src={demo} alt="logo?" className="demo" />
+                    <img src={demo} alt="logo" className="demo" />
                 <span className="title">Paradox Productions Meet-Up</span>
             </div>
                 <button className="mid-right">
