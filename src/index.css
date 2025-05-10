@@ -121,6 +121,7 @@ button {
 .action-buttons{
   margin: 20px 60px;
   display: flex;
+  flex-wrap: wrap;
   gap:6px;
 }
 
@@ -140,6 +141,17 @@ button {
   flex: 1;
 }
 
+@media (max-width: 768px) {
+  .action-buttons {
+    margin: 10px 30px 20px;
+  }
+
+  .action-buttons button {
+    justify-content: flex-start;
+    font-size: 16px;
+  }
+}
+
 .stats-overview {
   margin: 0px 60px;
 }
@@ -149,6 +161,7 @@ button {
   justify-content: space-between;
   margin-bottom: 15px;
   font-size: 20px;
+  flex-wrap: wrap;
 }
 
 .stats-summary {
@@ -157,6 +170,7 @@ button {
   margin-bottom: 15px;
   font-size: 16px;
   color: #00FF82;
+  flex-wrap: wrap;
 }
 
 .right-top{
@@ -180,6 +194,7 @@ button {
   justify-content: flex-start;
   gap: 10px;
   font-size: 14.4px;
+  flex-wrap: wrap;
 }
 
 .status-bar{
@@ -206,6 +221,30 @@ button {
 .status-bar .blue{
   background-color: #7C9BF2;
   width: 14.8%;
+}
+
+@media (max-width: 768px) {
+  .stats-overview {
+    margin: 0 30px;
+    margin-bottom: 20px;
+  }
+
+  .stats-header {
+    font-size: 18px;
+    flex-direction: column;
+  }
+
+  .stats-summary {
+    font-size: 14px;
+  }
+
+  .stat {
+    font-size: 12px;
+  }
+
+  .right-top {
+    font-size: 12px;
+  }
 }
 
 .guest-list{
