@@ -9,7 +9,7 @@ function Header () {
         <header className="header">
             <div className="top">
                 <div className="top-left">
-                    <img src={logo} alt="mmp" />
+                    <img src={logo} alt="mmp" className="logo"/>
                     <span className="logo-text"> MakeMyPass</span>
                 </div>
                 <div className="top-right">

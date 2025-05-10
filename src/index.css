@@ -118,6 +118,63 @@ button {
   font-size: 14.4px;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 30px;
+  }
+
+  .top {
+    align-items: flex-start;
+  }
+
+  .mid-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .middle {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .mid-right {
+    font-size: 12px;
+  }
+
+  .navbar {
+    gap: 4px;
+  }
+
+  .navbar span {
+    padding: 4px 0;
+  }
+
+  .hello {
+    font-size: 12px;
+  }
+
+  .logo{
+    width: 48px;
+    height: auto;
+  }
+
+  .logo-text {
+    font-size: 12px;
+  }
+
+  .back-button,
+  .adnan,
+  .demo {
+    width: 28px;
+    height: 28px;
+  }
+}
+
 .action-buttons{
   margin: 20px 60px;
   display: flex;
