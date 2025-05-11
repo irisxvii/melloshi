@@ -9,7 +9,7 @@ function Footer() {
             <div className="footer-top">
                 <span>69 Records</span>
                 <span>Per Page: 30</span>
-                <span>1 of 3
+                <span className="page-arrows">1 of 3
                     <img src={left} alt="left" className="arrow" />
                     <img src={right} alt="left" className="arrow" />
                 </span>

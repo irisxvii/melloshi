@@ -118,7 +118,7 @@ button {
   font-size: 14.4px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .header {
     padding: 30px;
   }
@@ -139,23 +139,31 @@ button {
   }
 
   .title {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .mid-right {
-    font-size: 12px;
+    display: none;
   }
 
   .navbar {
-    gap: 4px;
+    gap: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none;
   }
 
   .navbar span {
     padding: 4px 0;
+    white-space: nowrap;
   }
 
   .hello {
-    font-size: 12px;
+    display: none;
   }
 
   .logo{
@@ -164,7 +172,7 @@ button {
   }
 
   .logo-text {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .back-button,
@@ -204,8 +212,7 @@ button {
   }
 
   .action-buttons button {
-    justify-content: flex-start;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -301,6 +308,7 @@ button {
 
   .right-top {
     font-size: 12px;
+    margin-top: 8px;
   }
 }
 
@@ -484,4 +492,19 @@ button {
 .arrow{
   width: 26px;
   height: 26px;
+}
+
+.page-arrows{
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 20px 40px;
+  }
+
+  .footer-top {
+    font-size: 13px;
+  }
 }
